@@ -1,1 +1,2 @@
-# MDDN352P2
+# MDDN352 Project 2
+
