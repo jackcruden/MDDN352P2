@@ -1,0 +1,149 @@
+div {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header section */
+#header {
+    padding: 100px 0;
+    
+    background-color: #77DD77;
+}
+
+#header #logo {
+    text-align: center;
+}
+
+#header #logo img {
+    max-width: 90%;
+}
+
+#heading {
+    display: block;
+    margin-bottom: -20px;
+    font-size: 6em;
+}
+
+.subheading {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    clear: both;
+}
+
+p {
+    display: block;
+    font-size: 1.5em;
+}
+
+p:last-child {
+    padding-bottom: 100px;
+}
+
+/* Features (coloured background) */
+.feature {
+    vertical-align: middle;
+}
+
+#feature1 {
+    background-color: #B19CD9;
+}
+
+#feature2 {
+    background-color: #FFB347;
+}
+
+#featuretry {
+    background-color: #63E9FC;
+}
+
+.feature .subheading {
+    margin-top: 100px;
+}
+
+/* Photos (examples, photo backgrounds) */
+.photo {
+    
+}
+
+/* Speech */
+.speech {
+    display: block;
+    clear: both;
+    max-width: 80%;
+    margin-bottom: 10px;
+    
+    padding: 7px 14px;
+    border-radius: 20px;
+    
+    font-size: 1.3em;
+}
+
+.feature .speech:first-child {
+    margin-top: 100px;
+}
+
+.feature .speech:last-child {
+    margin-bottom: 100px;
+}
+
+.photo .speech:first-child {
+    margin-top: 200px;
+}
+
+.photo .subheading:first-child {
+    margin-top: 200px;
+}
+
+.photo .speech:last-child {
+    margin-bottom: 200px;
+}
+
+.photo p:last-child {
+    margin-bottom: 200px;
+    padding-bottom: 0;
+}
+
+/* Speech to Weather Lad */
+.to {
+    float: right;
+    background-color: #FDFD96;
+}
+
+/* Speech from Weather Lad */
+.from {
+    float: left;
+    color: white;
+    background-color: #FF6961;
+}
+
+/* Say something */
+.say {
+    float: none;
+    max-width: none;
+    background-color: #a2ff85;
+}
+
+.say input {
+    background-color: inherit;
+    border-width: 0;
+    border: none;
+    width: 100%;
+    box-shadow: 0;
+}
+
+.say input:focus {
+    outline: none;
+}
+
+#documentation .subheading {
+    margin-top: 100px;
+}
+
+#documentation p {
+    padding-bottom: 0;
+}
+
+footer {
+    min-height: 80px;
+    padding: 30px;
+}
