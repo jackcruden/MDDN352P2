@@ -1,68 +1,61 @@
+/* Extra small devices (phones, less than 768px) */
+
+body {
+    color: #454545;
+}
+
 div {
     font-family: 'Raleway', sans-serif;
 }
 
 /* Header section */
-#header {
-    padding: 100px 0;
+#now {
+    padding: 20px 0;
     
     background-color: #77DD77;
 }
 
-#header #logo {
-    text-align: center;
+#now img {
+    max-width: 100%;
 }
 
-#header #logo img {
-    max-width: 90%;
-}
-
-#heading {
+#nowDay {
     display: block;
     margin-bottom: -20px;
-    font-size: 6em;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.subheading {
+#nowHigh, #nowLow {
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nowLabel {
     display: block;
-    margin-bottom: 20px;
-    font-size: 2.5em;
-    clear: both;
+    margin-top: -20px;
+    font-size: 1em;
 }
 
-p {
-    display: block;
-    font-size: 1.5em;
+#nowHigh {
+    color: tomato;
 }
 
-p:last-child {
-    padding-bottom: 100px;
+#nowLow {
+    color: cadetblue;
+}
+
+#nowStatus {
+    margin: 10px 0 0 0;
+    font-size: 1.3em;
 }
 
 /* Features (coloured background) */
-.feature {
-    vertical-align: middle;
-}
-
-#feature1 {
-    background-color: #B19CD9;
-}
-
-#feature2 {
-    background-color: #FFB347;
-}
-
-#featuretry {
-    background-color: #63E9FC;
-}
-
-.feature .subheading {
-    margin-top: 100px;
-}
-
-/* Photos (examples, photo backgrounds) */
-.photo {
-    
+#chat {
+    padding-top: 10px;
+    max-height: 250px;
+    overflow: scroll;
 }
 
 /* Speech */
@@ -79,28 +72,15 @@ p:last-child {
 }
 
 .feature .speech:first-child {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .feature .speech:last-child {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .photo .speech:first-child {
     margin-top: 200px;
-}
-
-.photo .subheading:first-child {
-    margin-top: 200px;
-}
-
-.photo .speech:last-child {
-    margin-bottom: 200px;
-}
-
-.photo p:last-child {
-    margin-bottom: 200px;
-    padding-bottom: 0;
 }
 
 /* Speech to Weather Lad */
@@ -135,15 +115,20 @@ p:last-child {
     outline: none;
 }
 
-#documentation .subheading {
-    margin-top: 100px;
-}
-
-#documentation p {
-    padding-bottom: 0;
+#endOfMessages {
+    display: none;
 }
 
 footer {
     min-height: 80px;
     padding: 30px;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
