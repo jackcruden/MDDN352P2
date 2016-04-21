@@ -58,6 +58,10 @@ div {
     overflow: scroll;
 }
 
+#chat::-webkit-scrollbar { 
+    display: none; 
+}
+
 /* Speech */
 .speech {
     display: block;
