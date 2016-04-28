@@ -22,20 +22,20 @@ div {
 #nowDay {
     display: block;
     margin-bottom: -20px;
-    font-size: 2em;
+    font-size: 6.5vw;
     font-family: 'Montserrat', sans-serif;
 }
 
 #nowHigh, #nowLow {
-    font-size: 5em;
+    font-size: 20vw; /* 5em */
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
 .nowLabel {
     display: block;
-    margin-top: -20px;
-    font-size: 1em;
+    margin-top: -5vw;
+    font-size: 4vw;
 }
 
 #nowHigh {
@@ -101,6 +101,10 @@ div {
 }
 
 /* Say something */
+#saySomething {
+    margin-top: 10px;
+}
+
 .say {
     float: none;
     max-width: none;
