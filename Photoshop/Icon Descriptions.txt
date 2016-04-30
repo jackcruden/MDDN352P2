@@ -1,9 +1,0 @@
-sun			Sunny			Done
-sun cloud		Sunny with clouds	Done
-sun cloud rain		Sunny with rain		Done
-cloud			Cloudy			Done
-cloud cloud		Very cloudy		
-cloud rain		Cloudy with rain
-cloud lightning		Stormy
-cloud snow		Snowing
-cloud wind		Windy
