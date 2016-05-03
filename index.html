@@ -338,6 +338,10 @@
             var weather = [];
             var forecast = [];
             
+            // If Chrome, recommend Firefox
+            if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+                alert('Chrome doesn\'t allow use of the HTML5 GeoLocation API on insecure connections (http). Please use Firefox until Weather Lad is properly hosted.')
+            };
             // Check if browser supports W3C Geolocation API
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(locationSuccess, locationError);
