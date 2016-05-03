@@ -8,6 +8,9 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Weather Lad - Your Intelligent Weather Companion</title>
 
+        <!-- Favicon -->
+        <link rel="icon" href="images/logo.png">
+        
         <!-- Style -->
         <link rel="stylesheet" href="css/style.css">
         
@@ -363,7 +366,7 @@
                     var i = index + 1;
                                         
                     // Set the icons
-                    var icon = '/images/gifs/' + getWeatherIcon(forecast[index]['icon']) + '.gif';
+                    var icon = 'images/gifs/' + getWeatherIcon(forecast[index]['icon']) + '.gif';
                     $('#day'+i+'Icon').attr('src', icon);
                     
                     // Set the day
@@ -487,8 +490,13 @@
                 $('#popupWeather').show();
                 $('#popupBlack').show();
             }
+            
+            function generateStatus(day)
+            {
+                return generateStatus(day, false);
+            }
 
-            function generateStatus(day, s = false)
+            function generateStatus(day, s)
             {
                 // s means it's a status, not a response.
                 

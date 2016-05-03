@@ -177,7 +177,7 @@ footer {
     }
 
     .dayOfWeek {
-        font-size: 2em;
+        font-size: 1.9em;
         margin-bottom: -10px;
     }
 
@@ -192,6 +192,10 @@ footer {
     
     #status {
         font-size: 1.8em;
+    }
+    
+    #chat {
+        max-height: 450px;
     }
 }
 
