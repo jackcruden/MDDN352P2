@@ -12,7 +12,7 @@ div {
 /* Header section */
 .day {
     padding: 20px 0;
-    
+
     background-color: #77DD77;
 }
 
@@ -59,8 +59,8 @@ div {
     overflow: scroll;
 }
 
-#chat::-webkit-scrollbar { 
-    display: none; 
+#chat::-webkit-scrollbar {
+    display: none;
 }
 
 /* Speech */
@@ -69,10 +69,10 @@ div {
     clear: both;
     max-width: 80%;
     margin-bottom: 10px;
-    
+
     padding: 7px 14px;
     border-radius: 20px;
-    
+
     font-size: 1.3em;
 }
 
@@ -157,7 +157,7 @@ footer {
     z-index: 1002;
     overflow: auto;
     text-align: center;
-    font-size: 5vw;
+    font-size: 1.8em;
 }
 .popup img {
     display: block;
@@ -190,11 +190,11 @@ footer {
         margin-top: -15px;
         font-size: 0.8em;
     }
-    
+
     #status {
         font-size: 1.8em;
     }
-    
+
     #chat {
         max-height: 450px;
     }
@@ -219,7 +219,7 @@ footer {
         margin-top: -15px;
         font-size: 1em;
     }
-    
+
     #status {
         font-size: 1.8em;
     }
