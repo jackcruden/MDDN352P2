@@ -1,7 +1,9 @@
 # Weather Lad
 
 Check it out: https://jackcruden.github.io/Weather-Lad/
+
 You'll be prompted to allow access to your location, the latitude and longitude info are sent to [Open Weather Map](https://openweathermap.org/) to get an accurate weather forecast. 
+
 
 Weather Lad was created as a concept web app for the MDDN352 paper at Victoria University of Wellington.
 
